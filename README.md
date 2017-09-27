@@ -1,4 +1,4 @@
-SYNCBOT SPLASH PAGE
+SYNC MUSIC BOT SPLASH PAGE
 
 HTML/CSS/JS site for a click-through Splash page
 
