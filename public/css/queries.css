@@ -74,9 +74,28 @@
   }
     }
 
-    /*  0-480px */
+ /*  0-480px */
 
-@media only screen and (max-width: 480px) {
-    
- }
+ @media only screen and (max-width: 480px) {
+    header {
+        height: 100%;
+      }
+      .hero-text-box {
+          position: relative;
+          margin-top: 100px;
+      }
+    }
+ 
+
+/* 0-420 */
+
+ @media only screen and (max-height: 420px) {
+    header {
+      height: 100%;
+    }
+    .hero-text-box {
+        position: relative;
+        margin-top: 100px;
+    }
+  }
  
