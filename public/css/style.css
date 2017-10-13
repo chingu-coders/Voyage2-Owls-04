@@ -245,6 +245,16 @@ header {
 
 }
 
+.logo-black {
+    display: none;
+    height: 65px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+    
+
+}
+
 .logo:hover {
 
     opacity: 1;
@@ -254,6 +264,7 @@ header {
 }
 
 
+/* Main Navigation */
 
 .main-nav {
 
@@ -290,6 +301,37 @@ header {
     font-weight: 400;
 
 }
+
+/* Sticky Navigation */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.952);
+    -webkit-box-shadow: 0 2px 2px rgb(219, 219, 219);
+            box-shadow: 0 2px 2px rgb(219, 219, 219);
+    z-index: 9999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+
+    padding: 15px 0;
+    color: #555;
+}
+
+.sticky .main-nav {
+    margin-top: 18px;
+}
+.sticky .logo {
+    display: none;
+}
+.sticky .logo-black {
+    display: block;
+}
+
 
 
 /* ----------------------------------------------------------------------------------------------- */
