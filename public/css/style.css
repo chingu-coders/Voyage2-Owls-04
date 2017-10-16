@@ -291,151 +291,117 @@ header {
 
 }
 
+/* ----------------------------------------------------------------------------------------------- */
+/* ------------------------------------------ FORM ----------------------------------------------
+*/
+/* ----------------------------------------------------------------------------------------------- */
+
+.section-form {
+    background-color: rgb(228, 228, 228);
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #555;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*:focus {
+    outline: none;
+}
 
 /* ----------------------------------------------------------------------------------------------- */
 /* ------------------------------------- FOOTER COMPONENTS --------------------------------------- */
 /* ----------------------------------------------------------------------------------------------- */
 
-.footer-distributed{
-    background-color: #292c2f;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    font: bold 16px sans-serif;
-    text-align: left;
-    padding: 55px 60px 40px;
-    margin-top: 80px;
-    overflow: hidden;
+footer {
+    background-color: #2B2B2B;
+    padding: 50px;
+    font-size: 80%;
 }
 
-/* Footer Left */
-
-.footer-distributed .footer-left{
-    float: left; 
-    
-}
-
-/* Company Logo */
-
-.footer-distributed h3{
-    color: #ffffff;
-    font: normal 36px 'cookie' cursive;
-    margin: 0;
-}
-
-.footer-distributed h3 span{
-    color: #5383d3;
-}
-
-/* footer links */
-
-.footer-distributed .footer-links{
-    color: #ffffff;
-    margin: 20px 0 12px;
-    padding: 0;
-}
-
-.footer-distributed .footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
-}
-
-.footer-distributed .footer-company-name{
-    color: #8f9296;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-}
-
-.footer-distributed .footer-company-caption{
-    color: #8f9296;
-    font-size: 17px;
-    line-height: 38px;
-    font-weight: normal;
-    margin: 0;
-}
-
-.footer-distributed .footer-icons{
-    margin-top: 40px;
-}
-
-.footer-distributed .footer-icons a{
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color: #33383b;
-    border-radius: 2px;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
-/*  --- Footer right ---*/
-
-.footer-distributed .footer-right{
-    float: right; 
-       
-}
-
-.footer-distributed .footer-right img{
+.footer-nav {
+    list-style: none;
     float: left;
-    margin-right: 10px;
-    clear: both;
-}
-.footer-distributed .footer-right p{
-    display: inline-block;
-    vertical-align: top;
-    margin: 15px 42px 0 0;
-    color: #ffffff;
-    overflow: auto;
 }
 
-/* -- Contact Form ---*/
-
-.footer-distributed form{
-    display: inline-block
-}
-
-.footer-distributed form input,
-.footer-distributed form textarea{
-    display: block;
-    border-radius: 3px;
-    box-sizing: border-box;
-    background-color: #1f2022;
-    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-    border: none;
-    resize: none;
-    
-    font: inherit;
-    font-size: 14px;
-    font-weight: normal;
-    color: #d1d2d2;
-    
-    width: 400px;
-    padding: 18px;
-}
-
-.footer-distributed form input{
-    height: 55px;
-    margin-bottom: 15px;
-}
-
-.footer-distributed form textarea{
-    height: 100px;
-    margin-bottom: 20px;
-}
-
-.footer-distributed form button{
-    border-radius: 3px;
-    background-color: #33383b;
-    color: #ffffff;
-    border: 0;
-    padding: 15px 50px;
-    font-weight: bold;
+.social-links {
+    list-style: none;
     float: right;
 }
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #8A8A8A;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #CACACA;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    font-size: 150%;
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram{
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s
+}
+
+.ion-social-facebook:hover{
+    color: #3B5998;
+}
+
+.ion-social-twitter:hover{
+    color: #279FBD;
+}
+
+.ion-social-googleplus:hover{
+    color: #D8685B;
+}
+
+.ion-social-instagram:hover{
+    color: #5582B6;
+}
+
+footer p{
+    color: #8A8A8A;
+    text-align: center;
+    margin-top: 10px;
+}
+
