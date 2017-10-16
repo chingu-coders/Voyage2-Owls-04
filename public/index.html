@@ -32,7 +32,7 @@
             </div>
         </nav>
         <div class="hero-text-box">
-                <h1><span>Sync</span><strong>Music</strong><span>Bot</span></h1>
+            <h1><span>Sync</span><strong>Music</strong><span>Bot</span></h1>
             <h1>Increase your productivity!</h1>
             <a class="btn btn-full" href="#">Add to slack!</a>
             <a class="btn btn-ghost" href="#features">Show me more!</a>
@@ -67,16 +67,14 @@
                 <i class="ion-android-share-alt icon-big"></i>
                 <h3>Share Music</h3>
                 <p>
-                    Share your music with <strong>@eachother</strong> and in <strong>#channels</strong>. Reactions and comments
-                    make it fun - and help me learn!
+                    Share your music with <strong>@eachother</strong> and in <strong>#channels</strong>. Reactions and comments make it fun - and help me learn!
                 </p>
             </div>
             <div class="col span-1-of-4 box">
                 <i class="ion-arrow-graph-up-right icon-big"></i>
                 <h3>Rate The Experience</h3>
                 <p>
-                    Any daily or on-demand playlist can be rated, which means enhanced personalization for everyone and more effective music
-                    for you.
+                    Any daily or on-demand playlist can be rated, which means enhanced personalization for everyone and more effective music for you.
                 </p>
             </div>
 
@@ -84,57 +82,139 @@
     </section>
 
     <! -- Footer section -->
-    
-    <footer class="footer-distributed">
-        
-        <div class="footer-left">
-            <h3>Sync Music <span>Bot</span></h3>
-            
-            <p class="footer-links">
-                <a href="#">Home</a>
-                <a href="#">Features</a>
-                <a href="#">Blog</a>
-                <a href="#">Faq</a>
-            </p>
-            <p class="footer-company-name">Sync Music Bot &copy; 2017</p>
-            
-            <div class="footer-company-caption">
-                <p>
-                    <span>Made with </span>
-                    <i class="ion-heart"></i>
-                    <span>and </span>
-                    <i class="ion-music-note"></i>
-                    <span> by </span>
-                    <a href="http://syncproject.co/" alt="sync project">Sync Project</a>
-                </p>   
+
+    <section class="section-form" id="sign-up">
+        <div class="row">
+            <h2>Need Help? let us know!</h2>
+        </div>
+        <div class="row">
+            <form method="post" action="#" class="contact-form">
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="find-us">How did you hear about us?</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <select name="find-us" id="find-us">
+                            <option value="friends" selected>Friends</option>
+                            <option value="search">Social Media</option>
+                            <option value="ad">Medium</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="news">Newsletter</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <input type="checkbox" name="news" id="news" checked>Yes, Please.
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="msg">Drop us a line</label>
+                    </div>
+                    <div class="col span-2-of-3">
+                        <textarea name="message" id="msg" placeholder="Your Message"></textarea>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span-1-of-3">
+                        <label for="submit">&nbsp;</label>
+                    </div>
+                    <div class="col span-2-of-3 last-btn">
+                        <input type="submit" id="submit" value="Send">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-nav">
+                    <li>
+                        <a href="#">Features</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#">iOS APP</a>
+                    </li>
+                    <li>
+                        <a href="#">Android APP</a>
+                    </li>
+                </ul>
             </div>
-             
-        
-            <div class="footer-icons">
-                <a href="#"><i class="ion-social-facebook"></i></a>
-                <a href="#"><i class="ion-social-twitter"></i></a>
-                <a href="#"><i class="ion-social-linkedin"></i></a>
-                <a href="#"><i class="ion-social-github"></i></a>
+
+            <div class="col span-1-of-2">
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-googleplus"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="ion-social-github"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-        
-            
-        <div class="footer-right">
+        <div class="row">
             <p>
-                <img src="./img/Shuffling.jpg" alt="shuffling bot" width="50%">             
-                <span>Contact Us</span>
+                Made with <i class="ion-heart"></i> by the owls-4 team during the Chingu Voyage-2 Cohort! Inspiration from <a href="syncmusicbot.com">Sync Music Bot</a>
             </p>
-            <form action="#" method="post">
-                <input type="text" name="email" placeholder="Email" />
-                <textarea name="message" placeholder="Message"></textarea>
-                <button>Send</button>
-            </form>
         </div>
     </footer>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="../Vendors/js/jquery.waypoints.min.js"></script>
-      <script src="./js/music.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../Vendors/js/jquery.waypoints.min.js"></script>
+    <script src="./js/music.js"></script>
 </body>
 
 </html>
