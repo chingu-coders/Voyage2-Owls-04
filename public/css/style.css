@@ -4,7 +4,7 @@
 
 
 * {
-
+    letter-spacing: 1px;
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -16,9 +16,9 @@ html {
 
     background-color:#FFFFFF;
     color: #555555;
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     text-rendering: optimizeLegibility;
 
 }
@@ -54,7 +54,7 @@ h1,
 h2,
 h3 {
 
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
     
     
@@ -65,7 +65,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
-    font-size: 275%;
+    font-size: 250%;
     word-spacing: 4px;
     text-shadow: 2px 7px 4px rgb(0, 0, 0);
 
@@ -157,7 +157,7 @@ h2:after {
     padding: 10px 20px;
     font-weight: 400;
     text-decoration: none;
-    border-radius: 200px;
+    
     -webkit-transition: background-color 0.3s, border 0.3s, color 0.3s;
     transition: background-color 0.3s, border 0.3s, color 0.3s;
     
@@ -166,32 +166,32 @@ h2:after {
 .btn-full:link,
 .btn-full:visited {
 
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
+    
+    border: 2px solid #ffffff;
     color: #fff;
-    margin-right: 45px;
+    margin-right: 30px;
 
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
 
-    border: 1px solid #e67e22;
-    color: #e67e22;
+    border: 2px solid #ffffff;
+    color: #ffffff;
 
 }
 
 .btn:hover,
 .btn:active {
 
-    background-color: #95a5a6;
-
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.281), rgba(34, 34, 34, 0.281));
+    color: #fff;
 }
 
 .btn-full:hover,
 .btn-full:active {
 
-    border: 1px solid #95a5a6;
+    border: 2px solid #ffffff;
     font-weight: 600;
 
 }
@@ -199,12 +199,27 @@ h2:after {
 .btn-ghost:hover,
 .btn-ghost:active {
 
-    border: 1px solid #95a5a6;
+    border: 2px solid #ffffff;
     color: #fff;
     font-weight: 600;
 
 }
 
+.btn {
+    box-shadow: 2px 6px 5px rgb(0, 0, 0);
+    position: relative;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+.btn:hover {
+    box-shadow: 0 6px 4px rgb(0, 0, 0);
+    top: 2px;
+}
+.btn:active {
+    box-shadow: 0 0 rgb(0, 0, 0);
+    top: 6px;
+}
 
 
 /* ----------------------------------------------------------------------------------------------- */

@@ -82,7 +82,7 @@
     .sticky .mobile-nav-icon { margin-top: 10px; }
     .sticky .mobile-nav-icon i { color: #555; }
     .sticky .mobile-nav-icon i.ion-close-round { color: #fff; }
-    h1 { font-size: 250%; }
+    h1 { font-size: 200%; }
     h2 { font-size: 150%; }
     .long-copy {
         width: 100%;
@@ -106,13 +106,15 @@
       }
       .hero-text-box {
           position: relative;
-          margin-top: 150px;
+          margin-top: 200px;
           text-align: center;
       }
 
       .btn-full:link,
       .btn-full:visited {
-          margin-right: 5px;
+        margin: 20px 0 20px 0;
+        width: 170px;
+        text-align: center;
       }
 
       .social-links {
