@@ -235,6 +235,30 @@ h2:after {
     top: 6px;
 }
 
+.btn-slack {
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.808);
+    position: relative;
+    border-radius: 10px;
+    
+    
+    width: 184px;
+    top: 19px;
+    height: 52px;
+    margin: auto;
+    margin-right: 30px;
+}
+
+.btn-slack:hover {
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.808);
+    top: 19px;
+    transform: scale(1.05, 1.05);
+}
+.btn-slack:active {
+    box-shadow: 2px 4px 4px rgb(0, 0, 0);
+    top: 22px;
+}
+
+
 
 /* ----------------------------------------------------------------------------------------------- */
 /* ------------------------------------- HEADER COMPONENTS --------------------------------------- */
@@ -340,7 +364,7 @@ header {
 
     border-bottom: 3px solid #e67e22;
     font-weight: 400;
-
+    transform: scale(1.06, 1.06);
 }
 
 /* Mobile Navigation */
@@ -368,6 +392,7 @@ header {
     -webkit-box-shadow: 0 2px 2px rgb(219, 219, 219);
             box-shadow: 0 2px 2px rgb(219, 219, 219);
     z-index: 9999;
+    transition: 0.5s;
 }
 
 .sticky .main-nav li a:link,

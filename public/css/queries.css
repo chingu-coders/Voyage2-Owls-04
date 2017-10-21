@@ -121,6 +121,19 @@
         width: 100%;
     }
 
+    .btn-slack {
+        box-shadow: 2px 6px 5px rgb(0, 0, 0);
+        position: relative;
+        border-radius: 10px;
+        width: 150px;
+        top: 19px;
+        height: 45px;
+        margin: auto 10px;
+        margin-bottom: 30px;
+        
+        
+    }
+
 
     }
  
