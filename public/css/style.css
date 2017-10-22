@@ -107,6 +107,7 @@ h2:after {
 /* ----------------------------------------------------------------------------------------------- */
 
 .section-features {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(rgba(0, 0, 0, 0.7))), url(../img/headphonesblr.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(../img/headphonesblr.jpg);
     background-size: cover;
     background-position: center;
@@ -236,7 +237,8 @@ h2:after {
 }
 
 .btn-slack {
-    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.808);
+    -webkit-box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.808);
+            box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.808);
     position: relative;
     border-radius: 10px;
     
@@ -249,12 +251,15 @@ h2:after {
 }
 
 .btn-slack:hover {
-    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.808);
+    -webkit-box-shadow: 0 6px 4px rgba(0, 0, 0, 0.808);
+            box-shadow: 0 6px 4px rgba(0, 0, 0, 0.808);
     top: 19px;
-    transform: scale(1.05, 1.05);
+    -webkit-transform: scale(1.05, 1.05);
+            transform: scale(1.05, 1.05);
 }
 .btn-slack:active {
-    box-shadow: 2px 4px 4px rgb(0, 0, 0);
+    -webkit-box-shadow: 2px 4px 4px rgb(0, 0, 0);
+            box-shadow: 2px 4px 4px rgb(0, 0, 0);
     top: 22px;
 }
 
@@ -364,7 +369,8 @@ header {
 
     border-bottom: 3px solid #e67e22;
     font-weight: 400;
-    transform: scale(1.06, 1.06);
+    -webkit-transform: scale(1.06, 1.06);
+            transform: scale(1.06, 1.06);
 }
 
 /* Mobile Navigation */
@@ -392,6 +398,7 @@ header {
     -webkit-box-shadow: 0 2px 2px rgb(219, 219, 219);
             box-shadow: 0 2px 2px rgb(219, 219, 219);
     z-index: 9999;
+    -webkit-transition:all 0.5s ease-in;
     transition:all 0.5s ease-in;
 }
 
